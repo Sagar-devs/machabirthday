@@ -73,39 +73,60 @@
         
         <div class="wiseFromFriends">
             <h1 style="text-align: center;">Wishes</h1><br>
+        
+            <!-- Sathwik wishes section -->
             <h3 style="color: red; font-size: 2rem;">From Annaya</h3>
             <div class="sathwikWishesAndImage">
                 <div class="wishesImage">
                     <img src="images/sathwik.jpg" alt="">
                 </div>
-                <div class="textWishes sathwik">
+                <div class="textWishes sathwik" id="sathwikPassward" style="display: none;">
                     <p>To My Dearest Sister,</p>
-                    <p style="background-color: black; color: white; padding: 2px; width: fit-content;">Wishing you the happiest of birthday <span style="color: white;">❤</span>! You are my world, my best friend, and I’m so lucky to have you by my side</p>
-                    <p>I know we’ve had misunderstandings, but they were only because I care for you so deeply. No matter what happens, I’ll always be here for you brother for life</p>
-                    <p>Let’s hold on to the sweet memories we’ve shared and continue making new ones. I’m sorry for any mistakes I’ve made, but please know my love for you is forever</p>
+                    <p style="background-color: black; color: white; padding: 2px; width: fit-content;">
+                        Wishing you the happiest of birthday ❤! You are my world, my best friend, and I’m so lucky to have you by my side</p>
+                    <p>I know we’ve had misunderstandings, but they were only because I care for you so deeply. No matter what happens, I’ll always be here for you—your brother for life.</p>
+                    <p>Let’s hold on to the sweet memories we’ve shared and continue making new ones. I’m sorry for any mistakes I’ve made, but please know my love for you is forever.</p>
+                    <p>Love you endlessly, kanna. You mean everything to me.</p>
                 </div>
-            </div><br>
+                <div class="password-section" id="sathwikPasswordSection">
+                    <input class="form-control" type="password" id="sathwikPasswordInput" placeholder="Enter password"> <br>
+                    <button class="btn btn-primary" onclick="checkPassword('sathwikPasswordInput', 'sathwikPassward', 'sathwikPasswordSection', 'sathwikError', '10092003')">Submit</button>
+                    <p id="sathwikError" style="color:red; display:none;">Wrong password!</p>
+                </div>
+            </div>
+        
+            <!-- Sai Sharmila wishes section -->
             <h3 style="color: red; font-size: 2rem;">From Sai Sharmila</h3>
             <div class="sathwikWishesAndImage">
-                <div class="textWishes sai">
+                <div class="textWishes sai" id="saiPassward" style="display: none;">
                     <p>To My Dearest Sister,</p>
-                    <p>Wishing you the happiest of birthday <span style="color: white;">❤</span>! You are my world, my best friend, and I’m so lucky to have you by my side</p>
-                    <p>I know we’ve had misunderstandings, but they were only because I care for you so deeply. No matter what happens, I’ll always be here for you brother for life</p>
-                    <p>Let’s hold on to the sweet memories we’ve shared and continue making new ones. I’m sorry for any mistakes I’ve made, but please know my love for you is forever</p>
+                    <p>Wishing you the happiest of birthday ❤!...</p>
                 </div>
                 <div class="wishesImage">
                     <img src="images/sai.jpg" alt="">
                 </div>
+                <div class="password-section" id="saiPasswordSection">
+                    <input class="form-control" type="password" id="saiPasswordInput" placeholder="Enter password"> <br>
+                    <button class="btn btn-primary" onclick="checkPassword('saiPasswordInput', 'saiPassward', 'saiPasswordSection', 'saiError', '18012003')">Submit</button>
+                    <p id="saiError" style="color:red; display:none;">Wrong password!</p>
+                </div>
             </div>
+        
+            <!-- Anjalli wishes section -->
             <h3 style="color: red; font-size: 2rem;">From Anjalli</h3>
             <div class="sathwikWishesAndImage">
                 <div class="wishesImage">
                     <img src="images/anjalli.jpg" alt="">
                 </div>
-                <div class="textWishes anjalli">
+                <div class="textWishes anjalli" id="anjalliPassward" style="display: none;">
                     <p>To MANAS,</p>
-                    <p style="background-color: red; color: white; padding: 2px; width: fit-content;">Happy Birthday Manass Machooo🎂💛</p>
-                    <p>💛Be happy forever🫶Naaku unaa friends andhari loo naa Nuvvu chaala sportive and positive minded kuda and nii understanding level chaala high untundhi nuvvu eppudu ila nee undaali macha untaav kuda ♥ Luv u more mama 😘 Once again wish u many more happy returns of the day mama 💐🥰I Miss u machooo🥹🫰keep smiling always... ✨💫💖</p>
+                    <p style="background-color: red; color: white; padding: 2px; width: fit-content;">Happy Birthday Manass Machooo 🎂💛 </p>
+                    <p>Be happy forever🫶Naaku unaa friends andhari loo naa Nuvvu chaala sportive and positive minded kuda and nii understanding level chaala high untundhi nuvvu eppudu ila nee undaali macha untaav kuda ♥ Luv u more mama 😘 Once again wish u many more happy returns of the day mama 💐🥰I Miss u machooo🥹🫰keep smiling always... ✨💫💖</p>
+                </div>
+                <div class="password-section" id="anjalliPasswordSection">
+                    <input  class="form-control" type="password" id="anjalliPasswordInput" placeholder="Enter password"><br>
+                    <button class="btn btn-primary" onclick="checkPassword('anjalliPasswordInput', 'anjalliPassward', 'anjalliPasswordSection', 'anjalliError', '12345678')">Submit</button>
+                    <p id="anjalliError" style="color:red; display:none;">Wrong password!</p>
                 </div>
             </div>
         </div>
