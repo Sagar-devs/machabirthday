@@ -72,20 +72,19 @@ body {
 }
 
 .birthday-wishes {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
-.message, .textWishes, .password-section {
+.message, .textWishes {
     color: #333;
     max-width: 50%;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards 1.2s;
 }
-.password-section{
-    justify-content: center;
-}
+
 .message h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -182,7 +181,7 @@ body {
         gap: 20px;
     }
 
-    .message, .textWishes, .password-section {
+    .message, .textWishes {
         max-width: 100%;
     }
     .macha-image img{
