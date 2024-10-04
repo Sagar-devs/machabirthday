@@ -160,7 +160,7 @@ body {
 
 @keyframes confetti {
     0% { transform: translateY(-100vh) rotate(0deg); }
-    100% { transform: translateY(100vh) rotate(720deg); }
+    100% { transform: translateY(500vh) rotate(720deg); }
 }
 
 @media (max-width: 768px) {
@@ -206,4 +206,7 @@ body {
 }
 .sai{
     font-family: "Varela Round", sans-serif;
+}
+.password-section{
+    margin-left: 15%;
 }
