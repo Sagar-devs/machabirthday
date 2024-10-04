@@ -15,12 +15,14 @@ body {
     color: #333;
     justify-content: center;
     align-items: center;
-    animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 1s ease infinite;
 }
 
 @keyframes gradientAnimation {
     0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    25% { background-position: 100% 50%; }
+    50% { background-position: 0% 50%; }
+    75% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
@@ -70,19 +72,20 @@ body {
 }
 
 .birthday-wishes {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
-.message, .textWishes {
+.message, .textWishes, .password-section {
     color: #333;
     max-width: 50%;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards 1.2s;
 }
-
+.password-section{
+    justify-content: center;
+}
 .message h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -179,7 +182,7 @@ body {
         gap: 20px;
     }
 
-    .message, .textWishes {
+    .message, .textWishes, .password-section {
         max-width: 100%;
     }
     .macha-image img{
